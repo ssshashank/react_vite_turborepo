@@ -3,6 +3,6 @@
 	"compilerOptions": {
 		"outDir": "dist"
 	},
-	"include": ["src"],
+	"include": ["src", "src/components/shadcn"],
 	"exclude": ["node_modules", "dist"]
 }

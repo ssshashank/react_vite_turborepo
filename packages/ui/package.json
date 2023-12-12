@@ -11,7 +11,9 @@
 		"./card": "./src/card.tsx",
 		"./code": "./src/code.tsx",
 		"./heading": "./src/heading.tsx",
-		"./useGlobalStore": "./src/zustand/store/store.ts"
+		"./useGlobalStore": "./src/zustand/store/store.ts",
+		"./shadcnCard": "./src/components/shadcn/card.tsx",
+		"./shadcnButton": "./src/components/shadcn/button.tsx"
 	},
 	"scripts": {
 		"lint": "eslint . --max-warnings 0",
@@ -33,6 +35,12 @@
 		"typescript": "^5.2.2"
 	},
 	"dependencies": {
+		"@radix-ui/react-slot": "^1.0.2",
+		"class-variance-authority": "^0.7.0",
+		"clsx": "^2.0.0",
+		"lucide-react": "^0.294.0",
+		"tailwind-merge": "^2.1.0",
+		"tailwindcss-animate": "^1.0.7",
 		"zustand": "^4.4.7"
 	}
 }
