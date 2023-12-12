@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "./components/shadcn/button";
-import { Card } from "./components/shadcn/card";
+import { Button } from "../shadcn/button";
+import { Card } from "../shadcn/card";
 
 const Heading = () => {
 	return (

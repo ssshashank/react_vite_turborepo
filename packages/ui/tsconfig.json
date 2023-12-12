@@ -1,7 +1,20 @@
 {
 	"extends": "@repo/typescript-config/react-library.json",
 	"compilerOptions": {
-		"outDir": "dist"
+		"outDir": "dist",
+		"target": "es2022",
+		"jsx": "react-jsx",
+		"strict": true,
+		"baseUrl": ".",
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"paths": {
+			"@/*": ["src/*"],
+			"@Components/*": ["src/components/*"],
+			"@Utils/*": ["src/utils/*"],
+			"@Zustand/*": ["src/zustand/*"],
+			"@Assets/*": ["src/assets/*"]
+		}
 	},
 	"include": ["src", "src/components/shadcn"],
 	"exclude": ["node_modules", "dist"]
